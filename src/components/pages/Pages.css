@@ -1,0 +1,38 @@
+.btnLearnMore {
+    position: relative;
+    display: inline-block; /* Ensures underline width matches text */
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.25s ease-in-out;
+}
+
+/* Static gray underline */
+.btnLearnMore::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #333333; /* Gray color */
+}
+
+/* Expanding white underline */
+.btnLearnMore::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0); /* Initially hidden */
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btnLearnMore:hover::after {
+    transform: scaleX(1); /* Expands to full width */
+}

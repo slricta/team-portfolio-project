@@ -18,19 +18,19 @@ const [menuOpen, setMenuOpen] = useState(false)
         </div>
         <ul className={menuOpen ? "open" : ""}>
             <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" className="text-lg font-semibold">Home</NavLink>
             </li>
             <li>
-                <NavLink to="/about">About Us</NavLink>
+                <NavLink to="/about" className="text-lg font-semibold">About Us</NavLink>
             </li>
             <li>
-                <NavLink to="/team">Team Members</NavLink>
+                <NavLink to="/team" className="text-lg font-semibold">Team Members</NavLink>
             </li>
             <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/projects" className="text-lg font-semibold">Projects</NavLink>
             </li>
             <li>
-                <NavLink to="/contact">Contact Us</NavLink>
+                <NavLink to="/contact" className="text-lg font-semibold">Contact Us</NavLink>
             </li>
         </ul>
     </nav> 
