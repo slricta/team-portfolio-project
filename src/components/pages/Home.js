@@ -3,9 +3,16 @@ import { Link } from 'react-router-dom';
 import player456 from './images/player456.jpg';
 import "./Pages.css"
 import samplelogo from './images/samplelogo.png';
+import { motion } from "framer-motion";
 
 export const Home = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0, y: 50 }} // Fade-in + Slide-in from below
+      animate={{ opacity: 1, y: 0 }} // Fully visible
+      exit={{ opacity: 0, y: -50 }} // Fade-out + Slide-up when leaving
+      transition={{ duration: 0.3 }} // Smooth transition effect
+    >
     <div>
       {/* Top Section */}
       <div className="flex justify-between items-center h-screen pl-40">
@@ -35,26 +42,26 @@ export const Home = () => {
         {/* Team Members Grid */}
         <div className="grid grid-cols-3 gap-4 place-items-center mx-56">
           <div>
-            <img src={player456} alt="Team Member 1" className="w-56 h-full object-cover rounded-lg mx-auto" />
+            <img src={player456} alt="Team Member 1" className="w-56 h-full object-cover mx-auto" />
             <p className="mt-2 text-center">Gerwin Dean Alcober</p>
           </div>
           <div>
-            <img src={player456} alt="Team Member 2" className="w-56 h-full object-cover rounded-lg mx-auto" />
+            <img src={player456} alt="Team Member 2" className="w-56 h-full object-cover mx-auto" />
             <p className="mt-2 text-center">Rhodel Andaya</p>
           </div>
           <div>
-            <img src={player456} alt="Team Member 3" className="w-56 h-full object-cover rounded-lg mx-auto" />
+            <img src={player456} alt="Team Member 3" className="w-56 h-full object-cover mx-auto" />
             <p className="mt-2 text-center">Matthew Meinrad Quiling</p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-4 place-items-center mx-96 mt-4">
           <div>
-            <img src={player456} alt="Team Member 4" className="w-56 h-full object-cover rounded-lg mx-auto" />
+            <img src={player456} alt="Team Member 4" className="w-56 h-full object-cover mx-auto" />
             <p className="mt-2 text-center">Stephen Rodriguez</p>
           </div>
           <div>
-            <img src={player456} alt="Team Member 5" className="w-56 h-full object-cover rounded-lg mx-auto" />
+            <img src={player456} alt="Team Member 5" className="w-56 h-full object-cover mx-auto" />
             <p className="mt-2 text-center">Daven Waay</p>
           </div>
         </div>
@@ -96,9 +103,9 @@ export const Home = () => {
             </p>
           </div>
         </div>
-        <hr className="w-5/6 mx-auto border-t-2 border-[#333333] mt-20 pb-20" />
 
       </div>
     </div>
+    </motion.div>
   );
 };
