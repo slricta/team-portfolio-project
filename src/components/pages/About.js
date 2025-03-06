@@ -1,7 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { useEffect } from 'react';
 
 export const About = () => {
+  useEffect(() => {
+      window.scroll(0, 0)
+    }, []);
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Fade-in + Slide-in from below

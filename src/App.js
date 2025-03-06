@@ -22,6 +22,10 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    window.scroll(0, 0)
+  }, []);
+
   return loading ? (
     <LoadingScreen />
   ) : (

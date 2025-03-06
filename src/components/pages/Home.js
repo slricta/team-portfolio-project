@@ -4,8 +4,12 @@ import player456 from './images/player456.jpg';
 import "./Pages.css"
 import samplelogo from './images/samplelogo.png';
 import { motion } from "framer-motion";
+import { useEffect } from 'react';
 
 export const Home = () => {
+  useEffect(() => {
+          window.scroll(0, 0)
+        }, []);
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }} // Fade-in + Slide-in from below
