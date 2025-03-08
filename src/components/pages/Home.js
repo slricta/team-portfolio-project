@@ -74,7 +74,7 @@ export const Home = () => {
         <div className="mt-6">
           <Link 
             to="/Team" 
-            className="btnLearnMore text-xl"
+            className="btnLearnMore text-2xl"
           >
             Learn more about the Team
           </Link>
