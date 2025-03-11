@@ -43,31 +43,20 @@ export const Home = () => {
           Driven by curiosity and creativity, we strive to push boundaries, learn continuously, and turn ideas into reality.
         </p>
 
-        {/* Team Members Grid */}
-        <div className="grid grid-cols-3 gap-4 place-items-center mx-56">
-          <div>
-            <img src={player456} alt="Team Member 1" className="w-56 h-full object-cover mx-auto" />
-            <p className="mt-2 text-center">Gerwin Dean Alcober</p>
-          </div>
-          <div>
-            <img src={player456} alt="Team Member 2" className="w-56 h-full object-cover mx-auto" />
-            <p className="mt-2 text-center">Rhodel Andaya</p>
-          </div>
-          <div>
-            <img src={player456} alt="Team Member 3" className="w-56 h-full object-cover mx-auto" />
-            <p className="mt-2 text-center">Matthew Meinrad Quiling</p>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-2 gap-4 place-items-center mx-96 mt-4">
-          <div>
-            <img src={player456} alt="Team Member 4" className="w-56 h-full object-cover mx-auto" />
-            <p className="mt-2 text-center">Stephen Rodriguez</p>
-          </div>
-          <div>
-            <img src={player456} alt="Team Member 5" className="w-56 h-full object-cover mx-auto" />
-            <p className="mt-2 text-center">Daven Waay</p>
-          </div>
+        <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
+          {/* Team Members */}
+          {[
+          { name: "Gerwin Dean Alcober", img: player456 },
+          { name: "Rhodel Andaya", img: player456 },
+          { name: "Matthew Meinrad Quiling", img: player456 },
+          { name: "Stephen Rodriguez", img: player456 },
+          { name: "Daven Waay", img: player456 }
+        ].map((member, index) => (
+          <div key={index} className="flex flex-col items-center">
+            <img src={member.img} alt={member.name} className="w-56 h-64 object-cover rounded-lg shadow-lg" />
+            <p className="mt-2 text-center text-white text-lg font-semibold">{member.name}</p>
+            </div>
+          ))}
         </div>
 
         {/* Learn More Button */}

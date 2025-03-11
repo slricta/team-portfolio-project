@@ -1,6 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
+import fb from './images/fb.png';
+import ig from './images/ig.png';
+import gmail from './images/gmail.png';
 
 export const Contact = () => {
   useEffect(() => {
@@ -57,7 +60,24 @@ export const Contact = () => {
         </div>
         </div>
 
-        <p>social media links</p>
+        <div class="h-56 grid grid-cols-3 gap-4 content-center justify-center text-white pt-20">
+          <div class="flex items-center gap-2 justify-center">
+            <img src={gmail} alt="Gmail Logo" className="size-10" />
+            <p className='btnLearnMore text-xl'>Email</p>
+          </div>
+
+          <div class="flex items-center gap-2 justify-center">
+            <img src={fb} alt="FB Logo" className="size-10" />
+            <p className='btnLearnMore text-xl'>Facebook</p>
+          </div>
+
+          <div class="flex items-center gap-2 justify-center">
+            <img src={ig} alt="IG Logo" className="size-8" />
+            <p className='btnLearnMore text-xl'>Instagram</p>
+          </div>
+
+
+        </div>
     </div>
     </motion.div>
   )
