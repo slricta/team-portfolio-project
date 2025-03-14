@@ -29,9 +29,9 @@ export const Team = () => {
           {[
             {
               name: "Gerwin Dean Alcober",
-              role: "Full Stack Developer",
-              expertise: "PHP, HTML, kahit ano",
-              github: "https://github.com/gerwindean",
+              role: "Back end Developer",
+              expertise: "HTML, CSS, Python, PHP",
+              github: "https://github.com/docurev111",
               img: player456,
             },
             {
@@ -43,22 +43,22 @@ export const Team = () => {
             },
             {
               name: "Matthew Meinrad Quiling",
-              role: "Full Stack Developer",
-              expertise: "PHP, HTML, kahit ano",
+              role: "Frontend Developer",
+              expertise: "HTML, CSS, JavaScript",
               github: "https://github.com/mattquiling",
               img: player456,
             },
             {
               name: "Stephen Rodriguez",
               role: "Full Stack Developer",
-              expertise: "PHP, HTML, kahit ano",
+              expertise: "Java, HTML, CSS, PHP, MySql",
               github: "https://github.com/slricta",
               img: player456,
             },
             {
               name: "Daven Waay",
               role: "Full Stack Developer",
-              expertise: "PHP, HTML, kahit ano",
+              expertise: "Java, HTML, CSS, MySql",
               github: "https://github.com/davenwaay",
               img: player456,
             }
