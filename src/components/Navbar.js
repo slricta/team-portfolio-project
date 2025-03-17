@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {Link, NavLink} from "react-router-dom"
 import "./Navbar.css"
+import logo from './pages/images/logo.png';
 
 
 export const Navbar = () => {
@@ -8,7 +9,10 @@ const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <nav>
-        <Link to="/" className="title">Team Name</Link>
+        <Link to="/" className="title flex items-center space-x-3">
+        <img src={logo} alt="Hacktivate Logo" className="logo size-9" />
+        Hacktivate
+      </Link>
         <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen);
         }}>

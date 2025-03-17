@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import player456 from './images/player456.jpg';
 import "./Pages.css"
-import samplelogo from './images/samplelogo.png';
+import logo from './images/logo.png';
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
 
@@ -22,13 +22,13 @@ export const Home = () => {
       <div className="flex justify-between items-center h-screen pl-40">
         {/* Team Name on the Left */}
         <div>
-          <h1 className="text-7xl font-bold">Team Name</h1>
+          <h1 className="text-7xl font-bold">Hacktivate</h1>
         </div>
 
         {/* Logo on the Right */}
         <div>
           <img
-            src={samplelogo}
+            src={logo}
             alt="Logo"
             className="size-11/12 animate-pulse pr-40"
           />
@@ -37,9 +37,9 @@ export const Home = () => {
       <hr className="w-5/6 mx-auto border-t-2 border-[#333333]" />
       {/* Team Members Section */}
       <div className="text-center mx-10">
-        <h2 className="text-3xl font-bold mb-4 mt-20">Meet Team Name</h2>
+        <h2 className="text-3xl font-bold mb-4 mt-20">Meet Hacktivate!</h2>
         <p className="text-xl mb-4 mx-40">
-          We are <b>Team Name</b>, a passionate group of Information Technology students from Cavite State University - Imus Campus. 
+          We are <b>Hacktivate</b>, a passionate group of Information Technology students from Cavite State University - Imus Campus. 
           Driven by curiosity and creativity, we strive to push boundaries, learn continuously, and turn ideas into reality.
         </p>
 
@@ -65,7 +65,7 @@ export const Home = () => {
             to="/Team" 
             className="btnLearnMore text-2xl"
           >
-            Learn more about the Team
+            Learn more about us!
           </Link>
         </div>
         <hr className="w-5/6 mx-auto border-t-2 border-[#333333] mt-20" />

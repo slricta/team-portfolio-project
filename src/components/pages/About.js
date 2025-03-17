@@ -32,7 +32,7 @@ export const About = () => {
       </div>
       <br/>
       <div className='flex justify-center mx-72 text-lg'>
-        <p>We are <b>Team Name</b>, a passionate group of Information Technology students from <b>Cavite State University - Imus Campus</b>. United by our love for technology and innovation, we collaborate to build impactful digital solutions that solve real-world problems.
+        <p>We are <b>Hacktivate</b>, a passionate group of Information Technology students from <b>Cavite State University - Imus Campus</b>. United by our love for technology and innovation, we collaborate to build impactful digital solutions that solve real-world problems.
         <br/><br/>
           Driven by curiosity and creativity, we continuously explore new technologies, refine our skills, and embrace challenges that push us beyond our limits. Our mission is to transform ideas into reality through well-crafted software, intuitive designs, and efficient solutions.
           <br/><br/>

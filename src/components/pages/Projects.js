@@ -58,7 +58,7 @@ export const Projects = () => {
             <h2 className="text-2xl font-bold text-white">
               Juan Luna
             </h2>
-            <p className="text-white">Team Name</p>
+            <p className="text-white">Hacktivate</p>
             <p className="text-gray-300">
             A static website showcasing the history, life, and works of Juan Luna. Created first year of college (2023).
             </p>
