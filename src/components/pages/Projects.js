@@ -46,7 +46,7 @@ export const Projects = () => {
             </p>
             <p className="text-white italic">HTML, CSS</p>
             <br/>
-            <a href="/Inayawan/login.html" target="_blank" className='btnLearnMore'>Live Demo</a>
+            <a href="/inayawan-university/login.html" target="_blank" className='btnLearnMore'>Live Demo</a>
           </div>
         </div>
         <br/><br/><br/>
@@ -64,7 +64,7 @@ export const Projects = () => {
             </p>
             <p className="text-white italic">HTML, CSS</p>
             <br/>
-            <a href="/Juan Luna Website - Art Appreciation/home.html" target="_blank" className='btnLearnMore'>Live Demo</a>
+            <a href="/juan-luna-website/home.html" target="_blank" className='btnLearnMore'>Live Demo</a>
           </div>
           {/* Image with Border */}
           <div>
