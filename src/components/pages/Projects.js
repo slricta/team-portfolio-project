@@ -40,7 +40,7 @@ export const Projects = () => {
             <h2 className="text-2xl font-bold text-white">
               Inayawan University
             </h2>
-            <p className="text-white">Stephen Rodriguez</p>
+            <p className="text-white">Stephen Rodriguez, Rhodel Andaya</p>
             <p className="text-gray-300">
               A static website for a made-up school that shows the info about the school, admission, etc. Created during first year of college (2023).
             </p>

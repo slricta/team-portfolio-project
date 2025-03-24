@@ -36,8 +36,8 @@ export const Team = () => {
             },
             {
               name: "Rhodel Andaya",
-              role: "Full Stack Developer",
-              expertise: "PHP, HTML, kahit ano",
+              role: "Frontend Developer",
+              expertise: "HTML, CSS, Python",
               github: "https://github.com/rhodelandaya",
               img: player456,
             },
