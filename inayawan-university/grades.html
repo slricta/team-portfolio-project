@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="images\/logo.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Inayawan University of the Philippines</title>
+<style>
+h2{
+    margin-top: -29px;
+    margin-left: 50px;
+}
+.dropdown-container {
+    margin-left: -50px;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    
+   
+  }
+  .dropdown-checkbox {
+    display: none;
+  }
+  
+  .dropdown-label {
+    display: block;
+    padding: 10px;
+    background-color:whitesmoke;
+    cursor: pointer;
+    border: 1px solid black; 
+    border-radius: 4px; 
+    overflow: hidden;
+    width:1000px;
+    height:30px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 200px;
+    
+    
+  }
+  
+  .dropdown-content2 {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
+    
+  }
+  
+  .dropdown-checkbox:checked ~ .dropdown-content2 {
+    max-height: 550px; /* Adjust this value as needed */
+    transition: max-height 0.7s ease;
+   
+  }
+  
+  table {
+    width: 84%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 200px;
+  
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: lightblue;
+    font-weight: bold;
+  }
+
+  .text-con {
+    padding: 5px;
+    margin-top: -5px;
+    margin-left: 200px;
+  }
+  .dropdown-icon{
+    margin-left:600px;
+    margin-top: 2px;
+    /* margin-right: 40px; */
+  }
+  .dropdown-icon2{
+    margin-left:582px;
+    margin-top: 2px;
+    /* margin-right: 40px; */
+  }
+ 
+</style>
+
+</head>
+<body style="overflow-x: hidden;">
+	<nav>
+<div class="navbar">
+  <div class="home_logo">
+    <img src="images/logo3.png" width="550px" style="margin-left: 5px;">
+  </div>
+  <div class="links">
+  <a href="home.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Admission
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="reqs.html">Requirements and Procedures
+      <a href="acad_progs.html">Academic Programs</a>
+      <a href="pre-reg.html">Pre-registration</a>
+      </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn"><strong>Academics</strong> 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="acad_progs.html">Academic Programs</a>
+      <a href="depts.html">Departments</a>
+      <a href="grades.html"><strong>Grades</strong></a>
+      <a href="cc.html">Curriculum Checklist</a>
+      </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">Services 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">University Calendar</a>
+      <a href="events.html">Events</a>
+      <a href="balance.html">Account Balance</a>
+      </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">About 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="history.html">History</a>
+      <a href="mvo.html">Mission, Vision, and Objectives</a>
+      <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <img src="images/silos.jpg" width="50px" style="border-radius: 50%; margin-left: 30px;">
+      </button>
+      <div class="dropdown-content">
+        <a href="profile.html">View profile</a>
+        <a href="login.html">Log out</a>
+        </div>
+  </div> 
+</div>
+</nav>
+
+<article style="font-family: Segoe UI;">
+  <div class="container">
+    <img src="images/bg_oms.jpg" style="width:100%;">
+    <div class="page-title">Grades</div>
+  </div>
+<br><br>
+  <div class="dropdown-container">
+    <input type="checkbox" id="dropdown-checkbox-1" class="dropdown-checkbox" />
+    <label for="dropdown-checkbox-1" class="dropdown-label"><strong>Academic Year: 2022-2023 | Semester: FIRST</strong> <img src="images/chevron.png" alt="Dropdown Icon" class="dropdown-icon" height="15px" width="15px"></i></label>
+    <div class="dropdown-content2">
+      <table>
+        <tr>
+          <th>Subject Code</th>
+          <th>Description</th>
+          <th>Grade</th>
+          <th>Completion</th>
+          <th>Unit</th>
+          <th>Credit Unit</th>
+        </tr>
+
+        <tr>
+          <td>CVSU 101</td>
+          <td>Insitutional Orientation</td>
+          <td>S</td>
+          <td>-</td>
+          <td>1.00</td>
+          <td>1.00</td>
+        </tr>
+
+        <tr>
+            <td>GNED 02</td>
+            <td>Ethics</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>GNED 05</td>
+            <td>Purposive Communication</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>GNED 11</td>
+            <td>Kontekswalisadong Komunikasyon sa Filipino</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>COSC 50A</td>
+            <td>Discrete Structure</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>DCIT 21A</td>
+            <td>Introduction to Computing</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>DCIT 22A</td>
+            <td>Computer Programming 1</td>
+            <td>1.75</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+
+          <tr>
+            <td>FITT 1</td>
+            <td>Movement Enhancement</td>
+            <td>1.00</td>
+            <td>-</td>
+            <td>2.00</td>
+            <td>2.00</td>
+          </tr>
+
+          <tr>
+            <td>NSTP 1</td>
+            <td>National Service Training Program 1</td>
+            <td>1.25</td>
+            <td>-</td>
+            <td>3.00</td>
+            <td>3.00</td>
+          </tr>
+      </table>
+      <div class="text-con">
+        <p align="center"><strong>GPA: 1.29</strong></p>
+        <p align="center">(Excludes non-numeric value)</p>
+        <p align="center">INC - Incomplete; DRP - Dropped; S - Satisfactory; US - Unsatisfactory</p>
+        <p align="center">INC and 4.00 grade(s) <strong>CAN ONLY</strong> be completed within one (1) Academic Year otherwise completion will be marked <b style="color:red">5.00</b>. Example: INC grades </p>
+        <p align="center">acquired in the current Second Semester can only be completed until the Second Semester of the next Academic Year.</p>
+
+         </div>
+      </div>
+  </div>
+
+  <div class="dropdown-container">
+    <input type="checkbox" id="dropdown-checkbox-2" class="dropdown-checkbox" />
+    <label for="dropdown-checkbox-2" class="dropdown-label"><strong>Academic Year: 2022-2023 | Semester: SECOND</strong><img src="images/chevron.png" alt="Dropdown Icon" class="dropdown-icon2" height="15px" width="15px"></label>
+    <div class="dropdown-content2">
+        <table>
+            <tr>
+              <th>Subject Code</th>
+              <th>Description</th>
+              <th>Grade</th>
+              <th>Completion</th>
+              <th>Unit</th>
+              <th>Credit Unit</th>
+            </tr>
+
+            <tr>
+              <td>GNED 01</td>
+              <td>Art Appreciation</td>
+              <td>1.00</td>
+              <td>-</td>
+              <td>1.00</td>
+              <td>1.00</td>
+            </tr>
+
+            <tr>
+                <td>GNED 03</td>
+                <td>Mathematic in the modern world</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+
+              <tr>
+                <td>GNED 06</td>
+                <td>Science. Technology, and Society</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+
+              <tr>
+                <td>GNED 14</td>
+                <td>Panitikang Panlipunan</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+
+              <tr>
+                <td>DCIT 23A</td>
+                <td>Computer Programming 2</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+
+              <tr>
+                <td>ITEC 50A</td>
+                <td>Web System and Technologies 1</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+
+              <tr>
+                <td>FITT 2</td>
+                <td>Fitness Exercise</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>2.00</td>
+                <td>2.00</td>
+              </tr>
+
+              <tr>
+                <td>NSTP 2</td>
+                <td>National Service Training Program 1</td>
+                <td>1.00</td>
+                <td>-</td>
+                <td>3.00</td>
+                <td>3.00</td>
+              </tr>
+            
+          </table>
+          <div class="text-con">
+            <p align="center"><strong>GPA: 1.00</strong></p>
+            <p align="center">(Excludes non-numeric value)</p>
+            <p align="center">INC - Incomplete; DRP - Dropped; S - Satisfactory; US - Unsatisfactory</p>
+            <p align="center">INC and 4.00 grade(s) <strong>CAN ONLY</strong> be completed within one (1) Academic Year otherwise completion will be marked <b style="color:red">5.00</b>. Example: INC grades </p>
+            <p align="center">acquired in the current Second Semester can only be completed until the Second Semester of the next Academic Year.</p>
+
+         </div>
+    </div>
+  </div>
+
+</article>
+<br><br>
+<footer>
+  <p>© 2023 Inayawan University of the Philippines</p>
+</footer>
+
+</body>
+</html>
