@@ -56,7 +56,7 @@ export const Projects = () => {
           {/* Text Content */}
           <div className="w-full space-y-1 px-10">
             <h2 className="text-2xl font-bold text-white">
-              Juan Luna
+              Juan Luna Gallery
             </h2>
             <p className="text-white">Hacktivate</p>
             <p className="text-gray-300">

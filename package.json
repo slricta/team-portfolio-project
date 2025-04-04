@@ -15,7 +15,7 @@
     "styled-components": "^6.1.15",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://slricta.github.io/",
+  "homepage": "https://slricta.github.io/team-portfolio-project",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
