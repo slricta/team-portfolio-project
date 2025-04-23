@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
-import team from './images/team.JPG';
+import team from './images/team.jpg';
 import { Link } from 'react-router-dom';
 
 export const About = () => {

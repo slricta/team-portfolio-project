@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
 import inayawan from './images/inayawan.PNG';
+import lazhopee from './images/lazhoppee.jfif';
+import db from './images/db.jfif';
 import juan from './images/juan.PNG';
 
 export const Projects = () => {
@@ -75,7 +77,59 @@ export const Projects = () => {
             />
           </div>
         </div>
+        <br/><br/><br/>
+        {/* Dave projects */}
 
+        <div className="flex items-center gap-8 mx-auto">
+      {/* Image with Border */}
+          <div>
+            <img
+              src={lazhopee}
+              alt="lazhopee"
+              className="w-full border-[40px] border-l-0 border-gray-400 transition-transform duration-300 ease-in-out hover:scale-95"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="w-full space-y-1">
+            <h2 className="text-2xl font-bold text-white">
+              Lazhoppe
+            </h2>
+            <p className="text-white">Daven H, Waay</p>
+            <p className="text-gray-300">
+            This is a static, responsive e-commerce website built during my first year of college (2023). It features a homepage with promotions, category pages, product details, a shopping cart interface, and sale highlights. Though it lacks backend functionality, it effectively simulates a real e-commerce flow for front-end practice.
+            </p>
+            <p className="text-white italic">HTML, CSS, Javascript</p>
+            <br/>
+            <a href="https://davenwaay.github.io/Lazhoppe/index.html" target="_blank" rel="noreferrer" className='btnLearnMore'>Live Demo</a>
+          </div>
+        </div>
+        <br/><br/><br/>
+
+
+        <div className="flex items-center gap-8 mx-auto">
+          {/* Text Content */}
+          <div className="w-full space-y-1 px-10">
+            <h2 className="text-2xl font-bold text-white">
+              DB Glass & Aluminum
+            </h2>
+            <p className="text-white">Daven H, Waay</p>
+            <p className="text-gray-300">
+            A static e-commerce website created for a glass and aluminum business. It features product listings, categories, and a contact section. The site focuses on clean design and basic navigation, serving as a front-end showcase for a small business. Created during Senior High School (2021).
+            </p>
+            <p className="text-white italic">HTML, CSS, Bootstrap</p>
+            <br/>
+            <a href="https://davenwaay.github.io/DBGandA/index.html" target="_blank" rel="noreferrer" className='btnLearnMore'>Live Demo</a>
+          </div>
+          {/* Image with Border */}
+          <div>
+            <img
+              src={db}
+              alt="db"
+              className="w-full border-[40px] border-r-0 border-gray-400 transition-transform duration-300 ease-in-out hover:scale-95"
+            />
+          </div>
+        </div>
     </div>
     </motion.div>
   )
