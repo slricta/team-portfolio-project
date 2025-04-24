@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import player456 from './images/player456.jpg';
 import "./Pages.css";
 import logo from './images/logo.png';
+import matt from './images/matt.png';
+import ger from './images/ger.png';
+import dave from './images/dave.png';
+import rod from './images/rod.png';
+import step from './images/step.png';
 import { motion } from "framer-motion";
 
 export const Home = () => {
@@ -47,14 +52,14 @@ export const Home = () => {
 
           <div className="max-w-5xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
             {[
-              { name: "Gerwin Dean Alcober", img: player456 },
-              { name: "Rhodel Andaya", img: player456 },
-              { name: "Matthew Meinrad Quiling", img: player456 },
-              { name: "Stephen Rodriguez", img: player456 },
-              { name: "Daven Waay", img: player456 }
+              { name: "Gerwin Dean Alcober", img: ger },
+              { name: "Rhodel Andaya", img: rod },
+              { name: "Matthew Meinrad Quiling", img: matt },
+              { name: "Stephen Rodriguez", img: step },
+              { name: "Daven Waay", img: dave }
             ].map((member, index) => (
               <div key={index} className="flex flex-col items-center">
-                <img src={member.img} alt={member.name} className="w-56 h-64 object-cover rounded-lg shadow-lg" />
+                <img src={member.img} alt={member.name} className="w-56 h-72 object-cover rounded-lg shadow-lg" />
                 <p className="mt-2 text-center text-white text-base sm:text-lg font-semibold">{member.name}</p>
               </div>
             ))}

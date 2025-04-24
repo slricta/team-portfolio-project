@@ -2,6 +2,12 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect } from 'react';
 import player456 from './images/player456.jpg';
+import logo from './images/logo.png';
+import matt from './images/matt.png';
+import step from './images/step.png';
+import ger from './images/ger.png';
+import dave from './images/dave.png';
+import rod from './images/rod.png';
 import github from './images/github.png';
 import { Link } from 'react-router-dom';
 
@@ -32,39 +38,39 @@ export const Team = () => {
               role: "Back end Developer",
               expertise: "HTML, CSS, Python, PHP",
               github: "https://github.com/docurev111",
-              img: player456,
+              img: ger,
             },
             {
               name: "Rhodel Andaya",
               role: "Frontend Developer",
               expertise: "HTML, CSS, Python",
               github: "https://github.com/rhodelandaya",
-              img: player456,
+              img: rod,
             },
             {
               name: "Matthew Meinrad Quiling",
               role: "Frontend Developer",
               expertise: "HTML, CSS, JavaScript",
               github: "https://github.com/mattquiling",
-              img: player456,
+              img: matt,
             },
             {
               name: "Stephen Rodriguez",
               role: "Full Stack Developer",
               expertise: "Java, HTML, CSS, PHP, MySql",
               github: "https://github.com/slricta",
-              img: player456,
+              img: step,
             },
             {
               name: "Daven Waay",
               role: "Full Stack Developer",
               expertise: "Java, HTML, CSS, MySql",
               github: "https://github.com/davenwaay",
-              img: player456,
+              img: dave,
             }
           ].map((member, index) => (
             <div key={index} className="flex flex-col items-center p-6">
-              <img src={member.img} alt={member.name} className="w-full h-64 object-cover rounded-md shadow-md" />
+              <img src={member.img} alt={member.name} className="w-full h-full object-cover rounded-md shadow-md" />
               <p className="mt-4 text-center text-white text-xl font-semibold">{member.name}</p>
               <p className="text-gray-300 text-lg">{member.role}</p>
               <p className="text-white text-md italic">{member.expertise}</p>
