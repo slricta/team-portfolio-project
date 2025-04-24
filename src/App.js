@@ -15,6 +15,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const location = useLocation(); // Get current route
 
+  //Loading screen
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);

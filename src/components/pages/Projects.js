@@ -20,13 +20,10 @@ export const Projects = () => {
               transition={{ duration: 0.3 }} // Smooth transition effect
             >
     <div>
-      {/* Top Section */}
-      <div className="flex justify-between items-center h-screen pl-40">
-        {/* Projects */}
-        <div>
-          <h1 className="text-7xl font-bold">Projects</h1>
+        {/* Top Section */}
+        <div className="flex flex-col justify-center items-start h-[50vh] md:h-screen pt-10 md:pl-40">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">Projects</h1>
         </div>
-      </div>
       <hr className="w-5/6 mx-auto border-t-2 border-[#333333] mb-20" />
 
       {/* ReviewHero */}

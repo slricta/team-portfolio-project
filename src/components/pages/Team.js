@@ -22,14 +22,12 @@ export const Team = () => {
                   exit={{ opacity: 0, y: -50 }} // Fade-out + Slide-up when leaving
                   transition={{ duration: 0.3 }} // Smooth transition effect
                 >
-    <div>
-      {/* Top Section */}
-      <div className="flex justify-between items-center h-screen pl-40">
-        {/* Team members */}
-        <div>
-          <h1 className="text-7xl font-bold">Team Members</h1>
+    <div className="px-4 sm:px-6 md:px-10 lg:px-20">
+        {/* Top Section */}
+        <div className="flex flex-col justify-center items-start h-[50vh] md:h-screen pt-10 md:pl-40">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">Team Members</h1>
         </div>
-      </div>
+
       <hr className="w-5/6 mx-auto border-t-2 border-[#333333] mb-20" />
       <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-16">
           {[
