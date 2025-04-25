@@ -39,6 +39,7 @@ export const Projects = () => {
             </p>
             <p className="text-white italic">React JS, CSS</p>
             <br/>
+            <a href="https://davenwaay.github.io/ReviewHero/" target="_blank" rel="noreferrer" className='btnLearnMore'>Live Demo</a>
           </div>
           {/* Image with Border */}
           <div>
